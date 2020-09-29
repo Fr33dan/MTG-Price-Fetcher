@@ -1,6 +1,10 @@
 # MTG-Price-Fetcher
 Google Sheets Script to Fetch MTG card prices. Functions start with MTG and will auto-fill like other google sheet functions.
 
+Card prices are fetched from MTGGoldfish.com and card metadata provided by Magicthegathering.io.
+
+Prices are cached for 24 hours for performance and so that the script doesn't batch MTGGoldfishes servers over the head repeatedly.
+
 To install:
 1. Open Code.gs using the link above.
 2. Select all the code from the file and copy it to the clipboard.
